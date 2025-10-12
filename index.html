@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pramod M. - Full Stack Developer</title>
+
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">
+                <img src="logo.jpg" alt="Pramod M. Logo" class="header-logo-img">
+            </a>
+
+            <div class="nav-right-cluster">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#qualification">Qualification</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle-button" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-nav">
+        <div class="mobile-nav-close">×</div>
+        <div class="mobile-nav-logo">
+            <img src="p11.png" alt="Pramod M.">
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#qualification">Qualification</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle-button mobile" aria-label="Toggle Theme">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Pramod Mallikarjuna Malagundi</h1>
+                <h2><span class="typed"></span></h2>
+                <p>Full Stack Developer with hands-on experience in building responsive web applications using modern
+                    front-end and back-end technologies.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="https://drive.google.com/file/d/10AURg0HPOZxOyYDj_JBOhia3dyTXSefX/view?usp=sharing" class="btn btn-outline" target="_blank">View Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/PramodMallilkarjunaMalagundi" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pramod-mallikarjuna-malagundi" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/pramu_016?igsh=MTd1OXhnZGN0OWMzNg==" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="tel:9353164566" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="p11.png" alt="Pramod M.">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                I'm a Full Stack Developer driven by the challenge of transforming complex problems into beautiful, functional web applications. My passion lies in bridging the gap between intricate back-end logic and intuitive, user-centric front-end design. Whether it's architecting a robust API with Node.js or creating a seamless user experience with React, I am committed to writing clean, efficient code that solves real-world challenges. I am a lifelong learner, constantly exploring new technologies to build better, faster, and more dynamic digital solutions.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">The tools and technologies I leverage to build modern web solutions.</p>
+            <div class="skills-grid">
+                <div class="skill-card card">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span>
+                    </div>
+                </div>
+                <div class="skill-card card">
+                    <h3>Backend</h3>
+                    <div class="skill-tags"><span>Node.js</span><span>Express.js</span></div>
+                </div>
+                <div class="skill-card card">
+                    <h3>Databases</h3>
+                    <div class="skill-tags"><span>SQL(MySQL)</span><span>NoSQL(MongoDB)</span></div>
+                </div>
+                <div class="skill-card card">
+                    <h3>DevOps & Deployment</h3>
+                    <div class="skill-tags"><span>Git</span><span>GitHub</span><span>AWS</span></div>
+                </div>
+                <div class="skill-card card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags"><span>Java</span><span>C</span><span>Data Structures</span><span>Python</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="qualification">
+            <h2 class="section-title">Qualification</h2>
+            <p class="section-subtitle">My academic and educational background.</p>
+            <div class="qualification-list">
+                <div class="qualification-item card">
+                    <div class="qualification-content">
+                        <h3>B-Tech in Computer Science and Engineering</h3>
+                        <p>Srinivas University Institute of Engineering and Technology, Mangalore</p>
+                    </div>
+                    <div class="qualification-date">Expected 2026</div>
+                </div>
+                <div class="qualification-item card">
+                    <div class="qualification-content">
+                        <h3>Pre-University College (PUC)</h3>
+                        <p>SDM Indp Resi PU College, Ujire</p>
+                    </div>
+                    <div class="qualification-date">April 2022</div>
+                </div>
+                <div class="qualification-item card">
+                    <div class="qualification-content">
+                        <h3>Secondary School (SSLC)</h3>
+                        <p>Royal Palace School, Jamkhandi</p>
+                    </div>
+                    <div class="qualification-date">July 2020</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A selection of my work and personal projects.</p>
+            <div class="projects-grid">
+                <div class="project-card card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive showcase of my work and skills, built with modern HTML, CSS, and JavaScript.</p>
+                    <div class="project-links"><a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i>
+                            Live Demo</a><a href="#" class="btn-link"><i class="fab fa-github"></i> GitHub</a></div>
+                </div>
+                <div class="project-card card">
+                    <h3>Real-Time Code Editor</h3>
+                    <p>A collaborative editor with live preview using Socket.io, Node.js, and React.</p>
+                    <div class="project-links">
+                        <a href="https://pramod-code-collab.vercel.app" target="_blank" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/PramodMallilkarjunaMalagundi/Real-time-code-collaboration" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card card">
+                    <h3>Sorting Visualizer</h3>
+                    <p>A web-based tool demonstrating various sorting algorithms through visualization.</p>
+                    <div class="project-links"><a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i>
+                            Live Demo</a><a href="#" class="btn-link"><i class="fab fa-github"></i> GitHub</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-subtitle">My professional journey and internship experiences.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot timeline-dot1"></div>
+                    <!-- TODO: Replace "#" with the link to your 404 LOGIC offer letter -->
+                    <a href="#" target="_blank" class="timeline-card-link">
+                        <div class="timeline-content card">
+                            <h3>Full Stack Developer Intern</h3>
+                            <p><strong>404 LOGIC</strong> | 1 month</p>
+                            <p>Contributed to a Real-Time Code Editor project using React.js, Node.js, and Socket.io.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot timeline-dot2"></div>
+                     <!-- TODO: Replace "#" with the link to your YBI Foundation offer letter -->
+                    <a href="#" target="_blank" class="timeline-card-link">
+                        <div class="timeline-content card">
+                            <h3>Data Science and ML Intern</h3>
+                            <p><strong>YBI Foundation</strong> | 2 months</p>
+                            <p>Developed a Movie Recommendation System using Python.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">My professional credentials and qualifications.</p>
+            <div class="certifications-grid">
+                <div class="certification-card card">
+                    <img src="aws.jpg" alt="AWS Cloud Abstract Image">
+                    <div class="certification-info">
+                        <h3>AWS Cloud Foundation</h3>
+                        <p>AWS - Issued Feb 2025</p>
+                        <a href="https://www.credly.com/badges/55a56472-77cd-405f-95ba-d06070714638/public_url" target="_blank" class="btn-link">View Credential</a>
+                    </div>
+                </div>
+                <div class="certification-card card">
+                    <img src="database.jpg" alt="SQL Database Abstract Image">
+                    <div class="certification-info">
+                        <h3>SQL Database</h3>
+                        <p>Certiport - Issued June 2024</p>
+                        <a href="https://www.credly.com/badges/c8e61b60-8b1f-4bab-bed9-20dfe32717de/public_url" target="_blank" class="btn-link">View Credential</a>
+                    </div>
+                </div>
+                <div class="certification-card card">
+                    <img src="python.jpg" alt="Data Science Abstract Image">
+                    <div class="certification-info">
+                        <h3>Python for Data Science</h3>
+                        <p>IBM - Issued Nov 2023</p>
+                        <a href="https://courses.cognitiveclass.ai/certificates/d8c3f51f24614538ac3b2dab20ea1972" target="_blank" class="btn-link">View Credential</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project idea or just want to connect? Feel free to send me a message.</p>
+            <div class="contact-form-container card">
+                <form id="contact-form">
+                    <div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group"><input type="email" id="email" name="email" placeholder="Your Email"
+                            required></div>
+                    <div class="form-group"><textarea id="message" name="message" rows="5" placeholder="Your Message"
+                            required></textarea></div>
+                    <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Pramod M. All rights reserved.</p>
+    </footer>
+    
+    <div id="notification-toast" class="notification-toast"></div>
+
+    <!-- External JavaScript Libraries -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
