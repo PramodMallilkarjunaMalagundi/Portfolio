@@ -562,9 +562,11 @@ section {
 }
 
 .timeline-dot2 {
-    left: -9px;
+    left: -10px;
 }
-
+.timeline-dot3 {
+    left: -10px;
+}
 
 .timeline-dot {
     position: absolute;
