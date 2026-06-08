@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (contactForm) {
         contactForm.addEventListener('submit', function(event) {
             event.preventDefault();
-            const serviceID = 'service_vb861mx';
+            const serviceID = 'service_zuq6xlh';
             const templateID = 'template_6n42u3r';
 
             emailjs.sendForm(serviceID, templateID, this)
